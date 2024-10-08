@@ -1,11 +1,12 @@
 {
   "engines": {
-    "node": ">=20.11.1"
+    "node": "v20.11.1"
   },
   "name": "majorproject",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "start": "nodemon app.js"
   },
   "keywords": [],
